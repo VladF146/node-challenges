@@ -5,10 +5,8 @@ function evenOrOdd(number) {
     return "Please enter a number.";
   } else if (number % 2 === 0) {
     return "even";
-  } else if (number % 2 !== 0) {
-    return "odd";
   } else {
-    return "undefined";
+    return "odd";
   }
 }
 
